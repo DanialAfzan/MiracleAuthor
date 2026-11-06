@@ -4,7 +4,7 @@ Tested by: ___________  Date/time: ___________  System: Windows ____ / Visual St
 
 | Test | Expected result | Result (PASS/FAIL/NOT TESTED) | Actual evidence / fix |
 |---|---|---|---|
-| VS2022 builds x64 Debug | No compiler/linker errors | NOT TESTED | |
+| VS2022 builds x64 Debug | No compiler/linker errors | PASS | |
 | VS2022 builds x64 Release | No compiler/linker errors | PASS | |
 | Launch game | Menu appears | PASS | |
 | Enter starts | Gameplay begins | PASS | |
