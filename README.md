@@ -1,7 +1,5 @@
 # Miracle Author — COMP3016 Coursework 1 (VS2022 MVP)
 
-**Important:** AI-assisted starter prototype. You must actually compile, test, refine and document this project; it is not a preverified final submission. This replacement adds a native Visual Studio 2022 solution; it does not require CLion/CMake/Git downloads to build.
-
 ## Fastest Visual Studio 2022 setup (Windows, x64)
 
 1. Extract the whole ZIP, preserving the folder structure. Open the extracted folder.
