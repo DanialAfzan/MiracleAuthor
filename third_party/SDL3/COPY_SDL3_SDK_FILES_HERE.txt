@@ -1,0 +1,2 @@
+Run SETUP_SDL3.cmd from the project root. It copies the SDL3 development SDK include and lib/x64 files here.
+This directory must contain include/SDL3/SDL.h, lib/x64/SDL3.lib, and lib/x64/SDL3.dll before building.

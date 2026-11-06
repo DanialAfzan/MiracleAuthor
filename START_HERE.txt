@@ -1,0 +1,19 @@
+MIRACLE AUTHOR - VISUAL STUDIO 2022 QUICK START
+
+1) Extract this ZIP fully to your PC.
+2) Run SETUP_SDL3.cmd and paste/drag the folder containing your extracted
+   SDL3 Visual C++ DEVELOPMENT SDK (the folder with include/ and lib/x64/).
+   You need SDL3.lib + SDL3.dll + include/SDL3/SDL.h, not just SDL3.dll.
+3) Double-click MiracleAuthor.sln (Visual Studio 2022).
+4) Select Release and x64, then Build > Build Solution (Ctrl+Shift+B).
+5) Run WITHOUT debugging (Ctrl+F5). Start the game by pressing Enter.
+
+If it succeeds: build/Release/MiracleAuthor.exe and its SDL3.dll + assets/
+
+If the compiler says it cannot find SDL3/SDL.h, rerun step 2.
+If the linker says LNK1104 SDL3.lib, rerun step 2 with the VC x64 SDK.
+If the compiler complains about tools v143 or Windows SDK, install the
+Desktop development with C++ workload using Visual Studio Installer.
+
+See README.md for full details and the coursework checklist.
+The full Windows build has NOT been verified here. Please test it.

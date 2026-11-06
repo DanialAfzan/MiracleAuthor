@@ -1,0 +1,12 @@
+build/
+.vs/
+out/
+CMakeFiles/
+CMakeCache.txt
+.idea/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+# Keep the SDL3 SDK files in the final source ZIP for reproduction.
+# If public Git hosting policies require a slim repo, document dependency setup instead.
