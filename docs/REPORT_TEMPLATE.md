@@ -48,15 +48,7 @@ The project uses Visual Studio 2022, C++, SDL3 version 3.4.18 and GitHub for sou
 
 SDL3 handles window creation, keyboard input, rendering and other game functionality. The project contains a Visual Studio solution and instructions for configuring SDL3.
 
-## 6. AI-Assisted Development
-
-ChatGPT assisted with the original proposal, gameplay planning, C++ prototype, Visual Studio project configuration, SDL3 setup instructions and documentation.
-
-The original starter package did not work with my setup, so I requested a replacement designed for Visual Studio 2022. I configured the SDL3 SDK and successfully built and played the resulting game.
-
-AI-generated code and documentation are identified as assisted work rather than independently written work. Further details, prompts, verification and limitations are recorded in the [AI Development Log](AI_Development_Log.md).
-
-## 7. Testing and Validation
+## 6. Testing and Validation
 
 I successfully launched and played Miracle Author using Visual Studio 2022 and confirmed that the game was working before pushing it to GitHub.
 
@@ -66,13 +58,13 @@ The project includes a testing checklist for movement, collisions, collectibles,
 
 <img width="945" height="623" alt="image" src="https://github.com/user-attachments/assets/344740a2-0ff3-445f-a44e-02efec9cf4ac" />
 
-## 8. Demonstration Video
+## 7. Demonstration Video
 
 https://youtu.be/XXOADRSYSX4
 
 The demonstration covers the gameplay, controls, code structure, technical implementation and AI-assisted development process.
 
-## 9. Evaluation and Future Improvements
+## 8. Evaluation and Future Improvements
 
 Miracle Author demonstrates the implementation of a playable 2D game using C++ and SDL3, including object-oriented design, collision detection, runtime level loading and gameplay state management.
 
