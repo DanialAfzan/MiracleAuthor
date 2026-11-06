@@ -17,8 +17,8 @@ Tested by: ___________  Date/time: ___________  System: Windows ____ / Visual St
 | Touch enemy | Health -1, 1 s immunity | PASS | |
 | Zero health / timeout | Lose screen appears | PASS | |
 | Press R | Full reset of game state | PASS | |
-| Remove level file temporarily | Helpful error, no crash | NOT TESTED | |
-| Alter level file to invalid data | Helpful error, no crash | NOT TESTED | |
-| Open exe standalone (DLL + assets) | Game runs without VS debugger | NOT TESTED | |
+| Remove level file temporarily | Helpful error, no crash | FAIL | |
+| Alter level file to invalid data | Helpful error, no crash | FAIL | |
+| Open exe standalone (DLL + assets) | Game runs without VS debugger | FAIL | |
 
 If a peer plays the game, record their anonymous observations, the bug, your fix and a real Git commit. Do not claim checks passed until tested.
