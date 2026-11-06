@@ -1,30 +1,5 @@
 # Miracle Author — COMP3016 Coursework 1 (VS2022 MVP)
 
-## Fastest Visual Studio 2022 setup (Windows, x64)
-
-1. Extract the whole ZIP, preserving the folder structure. Open the extracted folder.
-2. **Double-click `SETUP_SDL3.cmd`.** Give the path to your extracted `SDL3-devel-...-VC` SDK folder. This is not the same as a folder containing only `SDL3.dll`. The tool copies SDK headers, `SDL3.lib` and `SDL3.dll` to `third_party/SDL3` (offline after you have the SDK).
-3. Open `MiracleAuthor.sln` in **Visual Studio 2022** (not VS Code).
-4. Select **x64** and **Debug** (or Release), **Build > Build Solution** (`Ctrl+Shift+B`). Ensure the "Desktop development with C++" workload / MSVC v143 and a Windows 10/11 SDK are installed.
-5. Press **Ctrl+F5** to run. Look for a menu reading `MIRACLE AUTHOR`, then press Enter.
-
-If build works, `build\Debug` or `build\Release` will contain `MiracleAuthor.exe`, `SDL3.dll` and `assets\level1.txt`. That folder can run on Windows without Visual Studio if the machine has the appropriate VC++ runtime. Test on an independent machine where possible.
-
-### If your existing SDL3 package is different
-
-You need the **SDL3 developer SDK for Visual C++ (VC)**, preferably version 3.4.x or at least SDL 3.2.0. Correct structure:
-
-```
-SDL3-devel-3.x.x-VC/SDL3-3.x.x/
-  include/SDL3/SDL.h
-  lib/x64/SDL3.lib
-  lib/x64/SDL3.dll
-```
-
-Some SDK ZIPs have only one root directory; either layout works. The setup script accepts the SDK root or its parent folder. If you installed SDL3 elsewhere, you can use project settings instead, but the provided copy script is simplest.
-
-Official SDK archive: https://www.libsdl.org/release/SDL3-devel-3.4.18-VC.zip
-
 ## Controls and goal
 
 - `Enter` start, `R` restart, `Esc` quit
