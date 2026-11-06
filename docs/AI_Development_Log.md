@@ -31,3 +31,14 @@ The GitHub repository contains the submitted source code, development history an
 Repository: https://github.com/DanialAfzan/MiracleAuthor
 
 Further improvements, test results and any code modifications should be documented in their respective commits.
+
+## AI-Assisted Development
+
+ChatGPT was used for project planning, C++ and SDL3
+code assistance, Visual Studio configuration,
+troubleshooting and documentation.
+
+The generated prototype was configured and tested
+in Visual Studio 2022.
+
+[AI Development Log](AI_Development_Log.md)
