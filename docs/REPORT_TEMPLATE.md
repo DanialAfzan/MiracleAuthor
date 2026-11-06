@@ -68,7 +68,7 @@ The project includes a testing checklist for movement, collisions, collectibles,
 
 ## 8. Demonstration Video
 
-[Add your unlisted YouTube video link here after recording.]
+https://youtu.be/XXOADRSYSX4
 
 The demonstration covers the gameplay, controls, code structure, technical implementation and AI-assisted development process.
 
