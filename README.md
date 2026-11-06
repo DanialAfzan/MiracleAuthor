@@ -39,3 +39,6 @@ The text level at `assets/level1.txt` starts with `24 15` (width/height) followe
 Original proposal: `docs/Week2_Proposal.pdf` (student's plan). SDL3 (library; zlib licence) must be supplied from the user's existing SDK. The base C++ prototype and Visual Studio scaffolding were AI-assisted; review, test, and adapt everything before submission. All later modifications and third-party assets should be cited appropriately.
 
 **Limitations:** Windows build and runtime have not been directly tested by the assistant; only structural/source checks may be performed here. Visual appearance and behaviour must be confirmed on your PC. Visuals use SDL3's built-in debug text (available since SDL 3.2) and rectangles rather than production sprite art.
+
+## Assessment Report
+[View Final Report](docs/REPORT_TEMPLATE.md)
